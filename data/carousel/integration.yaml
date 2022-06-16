@@ -1,0 +1,10 @@
+weight: 3
+title: "Integration"
+description: >
+  <ul class="list-style-none">
+    <li>Bridge Separate Systems</li>
+    <li>API Integration</li>
+    <li>Database Integration</li>
+    <li>Application Integration</li>
+  </ul>
+image: "img/carousel/template-easy-customize.png"

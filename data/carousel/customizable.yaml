@@ -1,9 +1,11 @@
 weight: 4
-title: "Easy to customize"
+title: "Custom Solutions"
 description: >
   <ul class="list-style-none">
-    <li>7 preprepared colour variations.</li>
-    <li>Easily to change fonts</li>
+    <li>App Development</li>
+    <li>Custom Excel Solutions</li>
+    <li>Google Docs Scripting</li>
+    <li>Websites</li>
   </ul>
 image: "img/carousel/template-easy-code.png"
-href: "https://devcows.github.io/hugo-universal-theme/"
+# href: "https://devcows.github.io/hugo-universal-theme/"
