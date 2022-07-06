@@ -106,11 +106,11 @@ function sliders () {
     })
 
     $('.testimonials').owlCarousel({
-      items: ($('.testimonials').attr('data-items') || 4),
+      items: 2,
       slideSpeed: ($('.testimonials').attr('data-slide-speed') || 2000),
       paginationSpeed: ($('.testimonials').attr('data-pagination-speed') || 1000),
       autoPlay: $('.testimonials').attr('data-autoplay') === 'true',
-      itemsDesktopSmall: [990, 3],
+      itemsDesktopSmall: [1220, 2],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
     })

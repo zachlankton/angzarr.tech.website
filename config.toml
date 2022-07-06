@@ -456,15 +456,9 @@ pluralizelisttitles = false
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Angzarr Tech.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+    # address = """<p class="text-uppercase"><strong>Angzarr Tech.</strong>
+    #   </p>
+    #   """
 
 # [permalinks]
 #     blog = "/blog/:year/:month/:day/:filename/"
@@ -490,11 +484,11 @@ pluralizelisttitles = false
 #     slide_speed = 2000
 #     pagination_speed = 1000
 
-# [params.carouselTestimonials]
-#     items = 4
-#     auto_play = false
-#     slide_speed = 2000
-#     pagination_speed = 1000
+[params.carouselTestimonials]
+    items = 2
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
 
 [params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items
@@ -512,13 +506,13 @@ pluralizelisttitles = false
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
 
-# [params.testimonials]
-#     enable = true
-#     # All testimonials are defined in their own files. You can find example items
-#     # at 'exampleSite/data/testimonials'.
-#     # For more information take a look at the README.
-#     title = "Testimonials"
-#     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more information take a look at the README.
+    title = "About Us"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 # [params.see_more]
 #     enable = true
@@ -536,11 +530,11 @@ pluralizelisttitles = false
 #     title = "Our Clients"
 #     subtitle = ""
 
-[params.recent_posts]
-    enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-    hide_summary = false
+# [params.recent_posts]
+#     enable = true
+#     title = "Case Studies"
+#     subtitle = "Check out some of the specific cases where we were able to improve our clients worflow efficiency."
+#     hide_summary = false
 
 [params.footer.recent_posts]
     enable = true

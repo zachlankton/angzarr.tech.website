@@ -10,13 +10,13 @@
                 </div>
 
                 <p class="lead">
-                  {{ .Site.Params.testimonials.subtitle | markdownify }}
+                    {{ .Site.Params.testimonials.subtitle | markdownify }}
                 </p>
 
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
 
                 <ul class="owl-carousel testimonials same-height-row"
-                    data-items="{{ default 4 .Site.Params.CarouselTestimonials.items }}"
+                    data-items="{{ default 2 .Site.Params.CarouselTestimonials.items }}"
                     data-autoplay="{{ default false .Site.Params.CarouselTestimonials.auto_play }}"
                     data-slide-speed="{{ default 2000 .Site.Params.CarouselTestimonials.slide_speed }}"
                     data-pagination-speed="{{ default 1000 .Site.Params.CarouselTestimonials.pagination_speed }}">
