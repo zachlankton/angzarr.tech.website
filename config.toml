@@ -450,11 +450,11 @@ pluralizelisttitles = false
 
     dropdown_mouse_over = false
 
-    disabled_logo = true
+    disabled_logo = false
     logo_text = "Angzarr Tech."
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "img/Angzarr_Transparant.png"
+    logo_small = "img/Angzarr_Transparant.png"
     contact_url = "/contact"
     # address = """<p class="text-uppercase"><strong>Angzarr Tech.</strong>
     #   </p>
