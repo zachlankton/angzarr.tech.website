@@ -442,7 +442,7 @@ pluralizelisttitles = false
     # enableRecaptchaInContactForm = false
     # googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>We specialize in software solutions for small and medium sized business.  We can help you automate repetitive tasks to enable you to focus on more value added activities.</p>"
+    # about_us = "<p>We specialize in software solutions for small and medium sized business.  We can help you automate repetitive tasks to enable you to focus on more value added activities.</p>"
     copyright = "Copyright (c) 2022-2023, Angzarr Tech; all rights reserved."
 
     # Format dates with Go's time formatting
@@ -512,7 +512,7 @@ pluralizelisttitles = false
     # at 'exampleSite/data/testimonials'.
     # For more information take a look at the README.
     title = "About Us"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "We specialize in software solutions for small and medium sized business.  We can help you automate repetitive tasks to enable you to focus on more value added activities."
 
 # [params.see_more]
 #     enable = true
