@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="name-picture">
                                     <img class="" alt="" src="{{ .avatar | absURL }}">
-                                    <h5>{{ .name }}</h5>
+                                    <h5>{{ .name | safeHTML }}</h5>
                                     <p>{{ .position }}</p>
                                 </div>
                             </div>
